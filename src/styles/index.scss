@@ -1,13 +1,39 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+div {
+    box-sizing: border-box;
+}
+.contadorTotal{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 60px;
+    width: 55vw;
+    background: black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.contadorTotal div {
+    font-size: 100px;
+    color: white;
+}
+.relojIcon, .hora, .minuto, .segundo {
+    padding: 10px;
+    margin: 4px;
+    // display: flex;
+    text-align: center;
+    border-radius: 10px;
+    height: 25vh;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.hora, .minuto, .segundo {
+    background: rgb(48, 48, 48);
+}
+button{
+    font-size: 20px;
+    padding: 2px;
+    margin: 20px;
+    text-align: center;
+    height: 60px;
+   /* width: 154.11px; */
+}
